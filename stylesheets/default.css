@@ -12,7 +12,7 @@
 
 html{
   background-color: #333333;
-  font-family: "sofia_prolight";
+  font-family: "sofia_prolight", Palatino, serif;
   color: white;
 }
 
