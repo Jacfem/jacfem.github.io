@@ -48,6 +48,7 @@ html{
   margin: 0 auto;
   left: 400px;
   position: relative;
+  line-height: 30px;
 }
 
 p{
