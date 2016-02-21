@@ -35,8 +35,9 @@ html{
 
 .header{
   text-align: center;
-  font-size: 3em;
-  margin: auto;
+  font-size: 1em;
+  margin: 0 auto;
+  top: 50px;
   padding: 50px;
   position: relative;
 }
@@ -53,6 +54,7 @@ a:hover{
 
 a{
   color: white;
+  text-decoration: none;
 }
 
 .mypicture{
@@ -87,11 +89,10 @@ a{
   font-size: 22px;
 }
 
-#lower{
+.lower{
   text-align: center;
   padding: 10px;
-  margin: 20px;
-  left: 450px;
+  margin: 0 auto;
   position: relative;
   border: 2px solid white;
   border-radius: 10px;
@@ -100,4 +101,16 @@ a{
 
 .post{
   text-align: center;
+}
+
+.content{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+}
+
+.icon:hover{
+  color: black;
 }
