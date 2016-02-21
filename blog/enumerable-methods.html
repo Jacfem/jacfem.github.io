@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>Jackie Feminella's Blog</title>
+					<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+					<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+					<link rel="stylesheet" type="text/css" href="../stylesheets/Sofia_Pro_Light-webfont/Webfonts/sofiapro_light_macroman/stylesheet.css">
+					<meta charset="UTF-8">
+		</head>
+
+	<body>
+		<div class="header">My blog</div>
+
+		<div class="nav">
+			<a class="navbutton" href="#">About</a>
+			<a class="navbutton" href="#">Projects</a>
+			<a class="navbutton" href="#">Resume</a>
+			<a class="navbutton" href="http://jacfem.github.io/blog:index.html">Blog</a>
+			<a class="navbutton" href="http://jacfem.github.io/contact.html">Contact</a>
+		</div>
+
+    <div class="post_header">
+          <h1>Map: Enumberable Method</h1>
+    </div>
+
+    <div class="post">
+      <h3>An Introduction</h3>
+      <p>The enumerable module is basically an object (as most things in Ruby are!) that we can call into our programs. This module opens up some other useful methods for us, one of these being <b>.map</b>.</p>
+      <p>It may be your goal to iterate through an object and only keep some of the items depending on a certain criteria. Map will help us do this!</p>
+      <p>The map method creates a new array based on an original array, but with modified values based on your code block.</p>
+      <p>For example, to modify an array that is [1, 2, 3, 4] we can use map. Let’s say we want to add 1 to each item in the array. The syntax would look like this:</p>
+      <h4>arr.map { |a| a + 1} and will return [2, 3, 4, 5]</h4>
+      <p>This brings up the conversation of destructive and non-desctructive methods. If we employ a destructive method, we will modify the original array, whereas if we employ a non-destructive method, we will return a NEW array with the modification, leaving the original method untouched. Typically, a bang operator (an exclamation mark: !) after the method name is how we employ a destructive method. Do you know what we used above?</p>
+      <p>Correct, we used a non-destructive method! If we had written the following, we would have modified the original array:</p>
+      <h4>arr.map! { |a| a + 1} </h4>
+      <p>It’s important to note that not all destructive methods require this bang operator, so make sure to do some research before you’re positive that the method you’re using is non-destructive if you need it to be.</p>
+      <p>The map method is extremely useful when you need to run something through each array object, and return them back in an array.</p>
+      <p>An example of where this could be useful is for a party guest list. Perhaps most people RSVP’d with their names in an all lower-case format, but you’d like to have the first letter of each name capitalized. You can ‘map through’ each item in the list of names and capitalize them, modifying the original array.</p>
+      <p>It would look something like this (using irb): </p>
+      <h4><img src="../imgs/enumerable_img.png"></h4>
+      <p>So, map returns a new array with the changes your code block made and is a great alternative choice from using the ‘each’ iterator. Map will return a new array of the same size as the original array, whereas each will return the original array unmodified.</p>
+
+      <div class="lower_blog">
+        <a href="http://jacfem.github.io/index.html">Home</a>
+      </div>
+
+    </body>
+</html>
