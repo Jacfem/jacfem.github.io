@@ -93,6 +93,7 @@ a{
   text-align: center;
   padding: 10px;
   margin: 0 auto;
+  margin-top: 20px;
   position: relative;
   border: 2px solid white;
   border-radius: 10px;
@@ -119,4 +120,17 @@ div img{
 
 .icon:hover{
   color: black;
+}
+
+hr{
+  margin-top: 25px;
+  width: 85%;
+}
+
+.header hr{
+  width: 50%;
+}
+
+.header p{
+  line-height: 35px;
 }
