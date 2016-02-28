@@ -75,9 +75,9 @@ p{
 }
 
 .post{
-  margin: 50px;
+  margin: 0 auto;
   text-align: center;
-  left: 200px;
+  width: 75%;
 }
 
 .post_header{
@@ -102,6 +102,7 @@ h3{
   padding: 10px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
   border: 2px solid white;
   border-radius: 10px;
@@ -123,4 +124,8 @@ h3{
 .post img {
   height: 100%;
   width: 50%;
+}
+
+.large img{
+  width: 100%;
 }

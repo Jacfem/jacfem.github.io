@@ -70,9 +70,9 @@ a{
   border-radius: 10px;*/
 }
 
-/*.mypicture:hover{
-  bw: 0%;
-}*/
+.img-circle:hover{
+  border: 1px solid white;
+}
 
 .img-circle{
     border-radius: 50%;
