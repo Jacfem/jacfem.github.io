@@ -60,13 +60,22 @@ a{
 .mypicture{
   position: relative;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
+  margin-top: 20px;
   clear: both;
-  height: 20%;
-  width: 20%;
-  border: 2px solid white;
-  border-radius: 10px;
+  /*height: 50%;
+  width: 30%;*/
+  /*border: 2px solid white;
+  border-radius: 10px;*/
+}
+
+/*.mypicture:hover{
+  bw: 0%;
+}*/
+
+.img-circle{
+    border-radius: 50%;
 }
 
 .footer{
@@ -86,7 +95,8 @@ a{
 }
 
 .footer .icon {
-  font-size: 22px;
+  font-size: 28px;
+  margin: 5px;
 }
 
 .lower{
