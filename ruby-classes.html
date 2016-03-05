@@ -24,13 +24,17 @@
         <h1>Classes & Instance Variables</h1>
   </div>
 
-        <div class="post">
+      <div class="post">
             <h3>An Introduction</h3>
         <p>As mentioned in my previous posts, Ruby is an object-oriented programming language. Put simply, nearly every <i>thing</i> we interface with while using Ruby is an <i>object</i>. If you think about all of the different objects in the world, you’ll realize that they each can have very different properties (say, a dog versus a table – one is active, one is static) or very similar properties (say, a table and a chair). Objects in ruby can be given with the same consideration. Do strings behave the same way as integers? Do arrays have the same functionality as hashes?</p>
         <p>The answer is of course, no. All of the examples above are objects, but they each behave differently. This is because they are all objects of a different <i>Class</i>.</p>
         <p>For starters, if you’d like to play around in IRB and see some various Classes, you can type # .class on any object and it will return its Class.</p>
-        <h4><img src="imgs/class_irb_blog.png"></h4>
-        <p>So, Ruby has built-in Classes, some of which are identified in IRB above. 1 is an instance of a Fixnum Class, “Hi!” is an instance of a String Class, and so on.</p>
+			</div>
+
+				<h4 class ="img-800"><img src="imgs/class_irb_blog.png"></h4>
+
+			<div class="post">
+				<p>So, Ruby has built-in Classes, some of which are identified in IRB above. 1 is an instance of a Fixnum Class, “Hi!” is an instance of a String Class, and so on.</p>
         <p>But what if we want to define our own Class, and instances of it, and why would we?</p>
         <p>Say for example we need to create several methods that will need access to the same variables and information, but do separate things and need to be defined as multiple methods. An example could be creating an Rsvp class that could be useful for keeping track of a guest list for a meetup.</p>
         <p>The steps you would take are:</p>
@@ -40,11 +44,15 @@
         <p>-End the method, End the Class</p>
         <p>-Create a new instance of the Class and pass it the parameters defined in your initialize method</p>
         <p>This would look like so for our RSVP example:</p>
-        <h4><img class="large" img src="imgs/class_example_blog.png"></h4>
-        <p>Where we type person = Rsvp.new is where we’re creating a new instance of the Rsvp Class. This is also where we pass the parameters to be accessed in the Class and used for any methods inside of it.</p>
+			</div>
+
+        <h4 class="img-800"><img src="imgs/class_example_blog.png"></h4>
+
+			<div class="post">
+				<p>Where we type person = Rsvp.new is where we’re creating a new instance of the Rsvp Class. This is also where we pass the parameters to be accessed in the Class and used for any methods inside of it.</p>
         <p>An instance of a Class is an object of that Class. If we type person.class, per our IRB exercise above, it says Rsvp (which is correct!).</p>
         <h2>Success!</h2>
-        </div>
+      </div>
 
       <div class="lower_blog">
         <a href="http://jacfem.github.io/index.html">Go Home  <i class="icon ion-ios-home-outline"></i></a>

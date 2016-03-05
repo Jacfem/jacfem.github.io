@@ -123,11 +123,10 @@ h3{
   width: 100px;
 }
 
-.post img {
-  height: 100%;
-  width: 50%;
-}
-
-.large img{
-  width: 100%;
+.img-800{
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
