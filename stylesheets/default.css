@@ -19,6 +19,15 @@ html{
   color: white;
 }
 
+.top_picture{
+  position: relative;
+  margin: 0 auto;
+  z-index: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 1100px;
+}
+
 .nav{
   text-align: center;
   position: fixed;
@@ -39,7 +48,7 @@ html{
   text-align: center;
   font-size: 1em;
   margin: 0 auto;
-  top: 50px;
+  top: -480px;
   padding: 50px;
   position: relative;
 }
@@ -139,7 +148,7 @@ div img{
 }
 
 hr{
-  margin-top: 25px;
+  margin-top: -150px;
   width: 85%;
 }
 
