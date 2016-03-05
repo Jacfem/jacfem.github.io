@@ -131,25 +131,6 @@ a{
   top: 50px;
 }
 
-#about-lower{
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  margin-top: 40px;
-  position: relative;
-  border: 2px solid white;
-  border-radius: 10px;
-  width: 200px;
-  top: 200px;
-}
-
-.about-hr{
-  top: -80px;
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
-}
-
 .post{
   text-align: center;
 }
@@ -177,10 +158,10 @@ div img{
   color: #69FAB5;
 }
 
-hr{
+/*hr{
   margin-top: -150px;
   width: 85%;
-}
+}*/
 
 .header hr{
   width: 50%;
@@ -222,5 +203,24 @@ ul{
   text-align: center;
   position: relative;
   line-height: 30px;
-  top: 200px;
+  top: 50px;
+}
+
+.about-hr{
+  top: -200px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#about-lower{
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 200px;
+  top: 50px;
 }
