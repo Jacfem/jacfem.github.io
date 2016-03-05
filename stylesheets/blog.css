@@ -66,6 +66,12 @@ html{
   width: 85%;
 }
 
+.blog-hr{
+  top: 200px;
+  margin: 0 auto;
+  width: 75%;
+}
+
 ul{
   list-style-type: none;
 }
