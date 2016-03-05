@@ -44,12 +44,21 @@ html{
   word-spacing: 4em;
 }
 
-.header{
+.home-header{
   text-align: center;
   font-size: 1em;
   margin: 0 auto;
   top: -480px;
   padding: 50px;
+  position: relative;
+}
+
+.header{
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+  top: 50px;
+  padding: 20px;
   position: relative;
 }
 
@@ -114,11 +123,31 @@ a{
   text-align: center;
   padding: 10px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
   border: 2px solid white;
   border-radius: 10px;
   width: 200px;
+  top: 50px;
+}
+
+#about-lower{
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 200px;
+  top: 200px;
+}
+
+.about-hr{
+  top: -80px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .post{
@@ -131,6 +160,7 @@ a{
   position: relative;
   font-size: 1.2em;
   padding-bottom: 20px;
+  top: 90px;
 }
 
 div img{
@@ -160,9 +190,6 @@ hr{
   line-height: 35px;
 }
 
-.project-list{
-  width: 50%;
-}
 
 .project-list{
     margin: 0 auto;
@@ -170,8 +197,30 @@ hr{
     position: relative;
     line-height: 30px;
     left: -22px;
-  }
+    width: 50%;
+    top: 200px;
+}
+
+.lower-project{
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 200px;
+  top: 200px;
+}
 
 ul{
     list-style-type: none;
+}
+
+.content-about{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  line-height: 30px;
+  top: 200px;
 }
