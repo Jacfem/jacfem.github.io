@@ -100,9 +100,9 @@ a{
   border-radius: 10px;*/
 }
 
-#img-circle:hover{
+/*#img-circle:hover{
   border: 1px solid white;
-}
+}*/
 
 #img-circle{
     border-radius: 50%;
@@ -253,4 +253,21 @@ ul{
   font-size: 1.2em;
   padding-bottom: 20px;
   top: 50px;
+}
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+#coffee{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 20px;
+  border-radius: 100%;
 }
