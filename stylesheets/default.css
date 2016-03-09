@@ -272,13 +272,17 @@ ul{
   border-radius: 100%;
 }
 
-ul{
+.cheat-sheet{
   margin: 0 auto;
   width: 75%;
   background-color: #d3d3d3;
   color: black;
   padding: 15px;
   line-height: 1.8em;
+}
+
+.cheat-sheet h3 {
+  text-align: center;
 }
 
 li span{

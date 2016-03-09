@@ -23,8 +23,8 @@
 			</div>
 
       <div>
-        <ul>
-          <h3>Hover over the space next to each method for an explanation of its use! You can use this as a tool to quiz yourself!</h3>
+        <ul class="cheat-sheet">
+          <h3>Hover over the space next to each method for an explanation of its use.</h3>
           <h3>Arrays</h3>
             <h3>Adding Items</h3>
               <li>.push :<span> Add a new item to the end of an array. You can also use <<</span></li>
@@ -60,11 +60,32 @@
               <li>.flatten :<span>Returns a new array that is a one dimensional flattening of the initial array. If you’d like, you can specify a level to flatten, such as array.flatten(1) to flatten one level. Otherwise, it will flatten all levels.</span></li>
               <li>.sample(optionalNumber) : <span>Chooses a random element or random number of elements from the array.</span></li>
               <li>.sort : <span>Returns a new sorted array. Must use destructive version sort! if you want to modify the original array.</span></li>
-              <li><span></span></li>
-              <li><span></span></li>
-              <!-- <li><span></span></li>
-              <li><span></span></li>
-              <li><span></span></li> -->
+<hr/>
+						<h3>Hashes</h3>
+							<h3>Assignment</h3>
+							<li>hash = {key: value, key2: value2} : <span>Creates a new hash with as many key-value pairs as you indicate.</span></li>
+							<li>hash[:key] : <span>Will return value of this key.</span></li>
+              <li>hash.to_a : <span>Returns a nested array of the hash’s key-value pairs.</span></li>
+						<h3>Removing Items</h3>
+							<li>hash.delete(“a”) : <span>Deletes the key-value pair from the key indicated.</span></li>
+              <li>hash.delete_if {|key, value| key > “a” } : <span>Deletes every key-value pair for which the code block evaluates to true.</span></li>
+							<li>hash.shift : <span>Removes first key-value pair from hash and returns that pair as a two-item array.</span></li>
+						<h3>Iterators</h3>
+							<li>hash.each {|key, value| puts “#{key} holds #{value}” } : <span>Calls the code block on the key-value pairs for each key in the hash.</span></li>
+							<li>hash.each_key {|key| puts key } : <span>Calls code block on each key in the hash.</span></li>
+							<li>hash.each_value {|value| puts value } : <span>Calls code block on each value in the hash.</span></li>
+						<h3>Hash/Element Reference</h3>
+							<li>hash[:key] : <span>Will return value of this key.</span></li>
+							<li>hash = Hash.new(0) : <span>Sets default value of 0 for accessing keys that do not exist in the hash.</span></li>
+							<li>hash.has_key?(“a”) : <span>Returns true if the key is present in hash.</span></li>
+              <li>hash.has_value?(10) <span>Returns true if the value is present for any key in the hash.</span></li>
+							<li>hash.length : <span>Returns number of key-value pairs in the hash.</span></li>
+						<h3>Selecting Key-Value Pairs</h3>
+							<li>hash.select {|key, value| block} : <span>Returns a new hash consisting of key-value pairs for which the block is true.</span></li>
+							<li><span></span></li>
+							<li><span></span></li>
+							<li><span></span></li>
+
         </ul>
       </div>
 
