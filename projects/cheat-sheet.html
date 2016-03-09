@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>Jackie Feminella</title>
+				<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+				<link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
+				<link rel="stylesheet" type="text/css" href="../stylesheets/ionicons.css">
+				<meta charset="UTF-8">
+		</head>
+
+		<body>
+			<div class="header-projects">
+		<!--The title below will probably change!-->
+			<h1>Ruby Methods Cheatsheet</h1>
+			</div>
+
+      <div class="nav">
+				<a class="navbutton" href="http://jacfem.github.io/about.html">About</a>
+				<a class="navbutton" href="http://jacfem.github.io/projects/index.html">Projects</a>
+				<a class="navbutton" href="#">Resume</a>
+				<a class="navbutton" href="http://jacfem.github.io/blog:index.html">Blog</a>
+				<a class="navbutton" href="http://jacfem.github.io/contact.html">Contact</a>
+			</div>
+
+      <div>
+        <ul>
+          <h3>Hover over the space next to each method for an explanation of its use! You can use this as a tool to quiz yourself!</h3>
+          <h3>Arrays</h3>
+            <h3>Adding Items</h3>
+              <li>.push :<span> Add a new item to the end of an array. You can also use <<</span></li>
+              <li>.unshift :<span>Add a new item to beginning of an array. </span></li>
+              <li>.insert :<span> </span></li>
+              <li> <span>Add a new element to an array at any position. array.insert(2, ‘Jackie’) will insert ‘Jackie’ in the 3rd position. You can add multiple items this way. </span></li>
+            <h3>Removing Items</h3>
+              <li>.pop :<span>Removes the last element from the array and returns it, or nil if the array is empty. You can specify a number such as array.pop(2) which will return an array of the last 2 elements.</span></li>
+              <li>.shift :<span>Retrieves and removes the first element from the array.</span></li>
+              <li>.delete_at(index) :<span>Deletes an element at a particular index.</span></li>
+              <li>.delete(element) : <span>Deletes a particular element anywhere in the array.</span></li>
+              <li>.slice(index) : <span>Deletes the element at the given index. You can specify a range.</span></li>
+              <li>.compact :<span>Removes nil values from an array.</span></li>
+              <li>.uniq :<span>Removes duplicate elements from an array.</span></li>
+            <h3>Iterators</h3>
+              <li>.each :<span>Leaves array unchanged and returns the values of the code block.</span></li>
+              <li>.each_index :<span>Same as each, but passes the index of the element instead of the element itself.</span></li>
+              <li>.reverse_each :<span>Iterates over the elements in an array in reverse order.</span></li>
+              <li>.map {|item| block of code} :<span>Outputs an array with values returned by the block.</span></li>
+              <li>.map! {|item| block of code} :<span>Outputs an array with the values replaced by the value returned by each block.</span></li>
+            <h3>Selecting Items</h3>
+              <li>.select{|a| code block for condition} : <span>Selects elements from an array according to the criteria in the code block. Will return a new array unless you use select!, the destructive form, in which case it modifies the original array.</span></li>
+              <li>.reject{|a| code block for condition} : <span>Same as with select, except it will reject the values based on the code block you specify. Again, you can use a destructive form with reject!</span></li>
+            <h3>Array/Element Reference</h3>
+              <li>[index] :<span>Returns the element at the array’s index specified.</span></li>
+              <li>[range] :<span>Returns a subarray containing the elements from that range of indexes, inclusive.</span></li>
+              <li>.count :<span>Returns number of elements in the array. You can include a code block that will return the number of elements for which the code block returns true.</span></li>
+            <h3>Other useful methods for arrays!</h3>
+              <li>.concat : <span>Adds elements to the array.</span></li>
+              <li>.cycle(number) {code block} : <span>Calls the code block on the array a certain number of times.</span></li>
+              <li>.join(separator) : <span>Returns a string with each element from the array separated by the given separator.</span></li>
+              <li>.reverse : <span>Returns a new array containing the array’s elements in reversed order.</span></li>
+              <li>.flatten :<span>Returns a new array that is a one dimensional flattening of the initial array. If you’d like, you can specify a level to flatten, such as array.flatten(1) to flatten one level. Otherwise, it will flatten all levels.</span></li>
+              <li>.sample(optionalNumber) : <span>Chooses a random element or random number of elements from the array.</span></li>
+              <li>.sort : <span>Returns a new sorted array. Must use destructive version sort! if you want to modify the original array.</span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+
+
+        </ul>
+      </div>
+
+			<div class="lower-project">Created with <i class="icon ion-ios-heart-outline"></i> by <a href=mailto:jaclynfeminella@gmail.com>Jackie Feminella</a>
+			</div>
+
+	</body>
+
+</html>

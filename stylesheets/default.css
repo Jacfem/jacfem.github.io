@@ -271,3 +271,20 @@ ul{
   padding-bottom: 20px;
   border-radius: 100%;
 }
+
+ul{
+  margin: 0 auto;
+  width: 75%;
+  background-color: #d3d3d3;
+  color: black;
+  padding: 15px;
+  line-height: 1.8em;
+}
+
+li span{
+  opacity: 0.0;
+  padding: 10px;
+}
+li span:hover{
+  opacity: 1.0;
+}
