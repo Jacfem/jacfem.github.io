@@ -281,7 +281,7 @@ ul{
   line-height: 1.8em;
 }
 
-.cheat-sheet-links a, h3{
+.cheat-sheet-links a, .cheat-sheet-links h3{
   color: black;
   margin: 0 auto;
   width: 75%;
